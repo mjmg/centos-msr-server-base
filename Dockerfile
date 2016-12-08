@@ -17,7 +17,7 @@ RUN \
   tar -xvzf en_r_server_901_for_linux_x64_9648602.tar.gz
   
 RUN \
-  cd /tmp/MRS90LINUX && \
+  cd /tmp/MRS90Linux && \
   ./install.sh -a -d -u  
 
 # Add default root password with password r00tpassw0rd
