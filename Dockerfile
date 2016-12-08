@@ -18,7 +18,7 @@ RUN \
   
 RUN \
   cd /tmp/MRS90Linux && \
-  ./install.sh -a -d -s  
+  ./install.sh -a  
 
 # Add default root password with password r00tpassw0rd
 RUN \
