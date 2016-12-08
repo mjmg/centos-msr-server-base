@@ -36,7 +36,7 @@ RUN \
   echo "deployr-user:deployr-pass" | chpasswd && \ 
   chmod -R +r /home/deployr-user 
 
-EXPOSE 8050 8051 8056
+EXPOSE 12800 12805 9054
 
 # default command
 CMD ["/usr/bin/R"]
