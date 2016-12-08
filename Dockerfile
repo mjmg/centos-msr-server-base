@@ -4,7 +4,7 @@ FROM mjmg/centos-supervisor-base:latest
 
 # Install OpenJDK8 and other prerequisites
 RUN \
-  yum update -y && /
+  yum update -y && \
   yum install -y java-1.8.0-openjdk-headless make gcc gcc-c++ gfortran cairo-devel libicu libicu-devel nfs-utils nfs-utils-lib 
   
 ENV JAVA_HOME=/usr/lib/jvm/jre-1.8.0
